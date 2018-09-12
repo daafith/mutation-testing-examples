@@ -1,0 +1,27 @@
+{
+  "name": "stryker-example",
+  "version": "1.0.0",
+  "description": "an example of mutation testing with stryker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daafith/mutation-testing-examples.git"
+  },
+  "keywords": [
+    "mutation",
+    "testing"
+  ],
+  "author": "David Baak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daafith/mutation-testing-examples/issues"
+  },
+  "homepage": "https://github.com/daafith/mutation-testing-examples#readme",
+  "devDependencies": {
+    "stryker": "^0.29.1",
+    "stryker-api": "^0.21.0"
+  }
+}
