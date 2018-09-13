@@ -4,7 +4,8 @@
   "description": "an example of mutation testing with stryker",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "mutation-test": "./node_modules/.bin/stryker run"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,12 @@
   },
   "homepage": "https://github.com/daafith/mutation-testing-examples#readme",
   "devDependencies": {
+    "mocha": "^5.2.0",
     "stryker": "^0.29.1",
-    "stryker-api": "^0.21.0"
+    "stryker-api": "^0.21.0",
+    "stryker-html-reporter": "^0.16.1",
+    "stryker-javascript-mutator": "^0.9.1",
+    "stryker-mocha-framework": "^0.12.1",
+    "stryker-mocha-runner": "^0.14.1"
   }
 }
