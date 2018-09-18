@@ -7,3 +7,5 @@
 .gradle
 **/node_modules
 **/reports
+**/.bundle
+Gemfile.lock
