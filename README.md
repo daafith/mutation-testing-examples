@@ -8,7 +8,7 @@ This folder contains a Maven and a Gradle example of [Pitest](http://pitest.org)
 This folder contains an example of [Stryker](https://stryker-mutator.io).
 
 ## Ruby
-This folder will contain an example of [Mutant](https://github.com//mbj/mutant)
+This folder contains an example of [Mutant](https://github.com//mbj/mutant)
 
 ## Next Language
 ...
