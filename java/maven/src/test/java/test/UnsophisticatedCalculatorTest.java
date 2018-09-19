@@ -14,7 +14,7 @@ public class UnsophisticatedCalculatorTest {
 
     @Test(expected = RuntimeException.class)
     public void throw_exception_when_outcome_is_not_a_real_number() {
-        UnsophisticatedCalculator.squareRoot(-0.0);
+        UnsophisticatedCalculator.squareRoot(-1.0);
     }
 
     @Test
