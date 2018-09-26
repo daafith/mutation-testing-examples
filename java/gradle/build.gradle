@@ -18,6 +18,7 @@ dependencies {
 
 pitest {
     targetClasses = ['app.*']
+    targetTests = ['test.*']
     threads = 4
     outputFormats = ['XML', 'HTML']
     timestampedReports = true
