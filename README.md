@@ -10,5 +10,8 @@ This folder contains an example of [Stryker](https://stryker-mutator.io).
 ## Ruby
 This folder contains an example of [Mutant](https://github.com//mbj/mutant)
 
+## PHP
+This folder contains an example of [Infection](https://infection.github.io)
+
 ## Next Language
 ...
