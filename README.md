@@ -13,5 +13,8 @@ This folder contains an example of [Mutant](https://github.com//mbj/mutant)
 ## PHP
 This folder contains an example of [Infection](https://infection.github.io)
 
+## Swift
+This folder contains an example of [Muter](https://github.com/muter-mutation-testing/muter)
+
 ## Next Language
 ...
