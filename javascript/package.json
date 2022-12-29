@@ -26,7 +26,7 @@
     "stryker": "^0.29.1",
     "stryker-api": "^0.21.0",
     "stryker-html-reporter": "^0.16.1",
-    "stryker-javascript-mutator": "^0.9.1",
+    "stryker-javascript-mutator": "^0.14.1",
     "stryker-mocha-framework": "^0.12.1",
     "stryker-mocha-runner": "^0.14.1"
   }
