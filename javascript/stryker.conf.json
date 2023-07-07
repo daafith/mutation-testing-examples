@@ -1,0 +1,8 @@
+{
+    "testRunner": "mocha",
+    "coverageAnalysis": "perTest",
+     "mutate" : ["app/**/*.js"],
+    "mochaOptions": {
+      "spec": [ "test/**/*.js" ]
+    }
+  }
