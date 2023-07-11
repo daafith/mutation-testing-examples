@@ -3,11 +3,11 @@ const calculator = require('../app/unsophisticatedCalculator')
 
 describe('Calculator', function () {
     it('gives the square root of a positive number', function () {
-        assert.equal(calculator.squareRoot(16), 4);
+        assert.equal(calculator.squareRoot(16), 'The square root of 16 = 4');
     });
 
     it('gives the square root of zero', function () {
-        assert.equal(calculator.squareRoot(0), 0);
+        assert.equal(calculator.squareRoot(-0), 'The square root of 0 = 0');
     });
 
     it('rejects a negative number', function () {
